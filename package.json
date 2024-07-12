@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "travel app",
   "main": "index.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Menuka",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "mysql": "^2.18.1"
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
   }
 }
