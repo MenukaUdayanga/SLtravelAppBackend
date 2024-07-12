@@ -10,7 +10,7 @@ if (!connection) {
   connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: 'root1234',
     database: 'travel'
   })
 
